@@ -11,6 +11,10 @@ body {
   flex-direction: column;
 }
 
+h2 {
+  text-align: center;
+}
+
 ul {
   display: flex;
   list-style: none; /* remove list bullets */
@@ -33,4 +37,9 @@ ul {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
 }
