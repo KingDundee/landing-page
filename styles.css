@@ -15,10 +15,15 @@ ul {
   display: flex;
   list-style: none; /* remove list bullets */
   padding: 0;
-  gap: 4px;
+  gap: 4px; /* adjust this value later */
 }
 
 .subheader_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subheader_2 {
   display: flex;
   justify-content: space-between;
 }
