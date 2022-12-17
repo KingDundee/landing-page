@@ -36,6 +36,13 @@ a {
   text-decoration: none; /* remove link underline */
 }
 
+.left_box button {
+  background-color: #0094b6;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+
 .header {
   height: auto; /* based on content */
   background-color: #F5E258;
