@@ -12,16 +12,12 @@ body {
   background-color: #D6F1C4;
 }
 
-h1 {
+h1, h2, h3 {
   margin: 0;
 }
 
 h2 {
   text-align: center;
-}
-
-h3 {
-  margin: 0;
 }
 
 ul {
