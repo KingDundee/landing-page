@@ -41,9 +41,9 @@ a {
 }
 
 .header {
-  height: auto; /* based on content */
+  height: auto; /* based on content size */
   background-color: #F5E258;
-  padding: 8px 240px 16px 240px; /* top right bottom left */
+  padding: 16px 240px 48px 240px; /* top right bottom left */
 }
 
 .subheader_1 {
