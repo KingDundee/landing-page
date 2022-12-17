@@ -1,7 +1,7 @@
 /* stylesheet for landing page */
 
 /* confirm why HTML element is slightly greater height than body element */
-/* seemed to fix itself once body was set to display: flex */
+/* seemed to resolve once body element was set to display: flex */
 
 body {
   height: 100vh;
@@ -9,22 +9,44 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  background-color: #D6F1C4;
+}
+
+h1 {
+  margin: 0;
 }
 
 h2 {
   text-align: center;
 }
 
+h3 {
+  margin: 0;
+}
+
 ul {
   display: flex;
   list-style: none; /* remove list bullets */
   padding: 0;
-  gap: 4px; /* adjust this value later */
+  margin: 0;
+  gap: 16px; /* gap between list bullets */
+}
+
+a {
+  text-decoration: none; /* remove link underline */
+}
+
+.header {
+  height: auto; /* based on content */
+  background-color: #F5E258;
+  padding: 8px 240px 16px 240px; /* top right bottom left */
 }
 
 .subheader_1 {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .subheader_2 {
@@ -33,7 +55,7 @@ ul {
 }
 
 .left_box {
-  width: 500px;
+  width: 400px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -44,8 +66,17 @@ ul {
   justify-content: center;
 }
 
+.content_1 {
+
+}
+
 .content_2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e7967b;
+}
+
+#maldives {
+  width: fit-content;
 }
