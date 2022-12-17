@@ -37,6 +37,7 @@ a {
   color: white;
   padding: 4px 16px; /* top/bottom left/right */
   border-radius: 8px; /* curved edges */
+  max-height: 40px;
 }
 
 .header {
@@ -62,7 +63,8 @@ a {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding-right: 16px;
+  padding-right: 32px;
+  flex: 1;
 }
 
 .gallery {
