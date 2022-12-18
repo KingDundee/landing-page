@@ -81,7 +81,7 @@ a {
 
 .content_1 {
   flex: 1;
-  padding: 16px;
+  padding: 32px;
 }
 
 .content_1 img { /* descendant combinator */
@@ -93,6 +93,14 @@ a {
   border-color: #F5E258;
   border-width: 4px;
 
+}
+
+.gallery_header {
+  color: #F5E258;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .gallery {
