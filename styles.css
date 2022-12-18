@@ -85,19 +85,20 @@ a {
 }
 
 .content_1 img { /* descendant combinator */
-  height: 150px;
-  width: auto;
+  width: 275px;
+  height: 325px;
+  object-fit: cover;
   border-radius: 8px;
   border-style: solid;
   border-color: #F5E258;
-  border-width: 2px;
+  border-width: 4px;
 
 }
 
 .gallery {
   display: flex;
   justify-content: center;
-  gap: 64px;
+  gap: 32px;
 }
 
 .content_2 {
