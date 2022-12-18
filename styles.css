@@ -17,7 +17,7 @@ ul {
   list-style: none; /* remove list bullets */
   padding: 0;
   margin: 0;
-  gap: 16px; /* gap between list bullets */
+  gap: 32px; /* gap between list bullets */
 }
 
 a {
