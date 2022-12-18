@@ -1,8 +1,5 @@
 /* stylesheet for landing page */
 
-/* confirm why HTML element is slightly greater height than body element */
-/* seemed to resolve once body element was set to display: flex */
-
 body {
   min-height: 100vh; /* min 100% of the viewport height */
   font-family: 'Roboto', Helvetica, sans-serif;
