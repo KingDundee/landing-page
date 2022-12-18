@@ -19,9 +19,8 @@ ul {
 
 a {
   text-decoration: none; /* remove underline from links */
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
+  color: black; /* link font colour */
+  font-size: 24px; /* same size as subheader_1 title */
 }
 
 .left_content button {
