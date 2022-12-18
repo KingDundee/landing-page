@@ -99,7 +99,6 @@ a {
 .footer {
   display: flex;
   min-height: 40px;
-  margin: 16px 240px; /* top/bottom left/right */
   align-items: center;
   justify-content: center;
 }
