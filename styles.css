@@ -23,17 +23,6 @@ a {
   font-size: 24px; /* same size as subheader_1 title */
 }
 
-.left_content button {
-  background-color: #8619df;
-  border-color: #0094b6;
-  color: white;
-  padding: 4px 16px; /* top/bottom left/right */
-  border-width: 4px;
-  border-radius: 8px; /* curved edges */
-  font-size: 24px;
-  max-width: 300px;
-  height: auto;
-}
 
 .header {
   min-height: 450px;
@@ -73,6 +62,18 @@ a {
   flex-direction: column;
   justify-content: space-between;
   padding-right: 32px;
+}
+
+.left_content button {
+  background-color: #8619df;
+  border-color: #0094b6;
+  color: white;
+  padding: 4px 16px; /* top/bottom left/right */
+  border-width: 4px;
+  border-radius: 8px; /* curved edges */
+  font-size: 24px;
+  max-width: 300px;
+  height: auto;
 }
 
 .content_1 {
