@@ -112,6 +112,9 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
   text-align: center;
+  color: #F5E258;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .content_2 {
