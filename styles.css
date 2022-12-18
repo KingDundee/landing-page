@@ -3,9 +3,9 @@
 body {
   min-height: 100vh; /* min 100% of the viewport height */
   font-family: 'Roboto', Helvetica, sans-serif;
-  margin: 0;
+  margin: 0; /* top right bottom left margins all set to zero */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* cross-axis horizontal */
   background-color: #0094b6;
 }
 
