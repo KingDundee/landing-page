@@ -68,11 +68,11 @@ a {
   background-color: #8619df;
   border-color: #0094b6;
   color: white;
-  padding: 4px 16px; /* top/bottom left/right */
+  padding: 4px 8px; /* top/bottom left/right */
   border-width: 4px;
   border-radius: 8px; /* curved edges */
   font-size: 24px;
-  max-width: 300px;
+  max-width: 240px;
   height: auto;
 }
 
