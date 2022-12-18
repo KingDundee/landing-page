@@ -105,6 +105,13 @@ a {
   justify-content: space-around;
 }
 
+.item1, .item2, .item3, .item4 {
+  width: 275px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .content_2 {
   display: flex;
   flex-direction: column;
