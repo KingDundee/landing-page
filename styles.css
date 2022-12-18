@@ -27,10 +27,6 @@ a {
   font-weight: bold;
 }
 
-.left_box p {
-  margin: 0; /* remove default paragraph margins */
-}
-
 .left_content button {
   background-color: #bceaf6;
   color: white;
@@ -51,6 +47,11 @@ a {
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 32px;
+}
+
+.subheader_1 div {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .subheader_2 {
