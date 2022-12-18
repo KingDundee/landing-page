@@ -12,14 +12,6 @@ body {
   background-color: #0094b6;
 }
 
-h1, h2, h3 { /* grouping selector */
-  margin: 0;
-}
-
-h2 {
-  text-align: center;
-}
-
 ul {
   display: flex;
   list-style: none; /* remove list bullets */
