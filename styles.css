@@ -96,6 +96,14 @@ a {
   background-color: #e7967b;
 }
 
+.footer {
+  display: flex;
+  min-height: 40px;
+  margin: 16px 240px; /* top/bottom left/right */
+  align-items: center;
+  justify-content: center;
+}
+
 #maldives {
   width: 400px;
   height: auto; /* preserve proportions */
