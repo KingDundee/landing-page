@@ -77,7 +77,7 @@ a {
 }
 
 .content_1 {
-  flex: 1;
+  min-height: 500px;
   padding: 32px;
 }
 
