@@ -4,13 +4,12 @@
 /* seemed to resolve once body element was set to display: flex */
 
 body {
-  height: 100vh; /* 100% of the viewport height */
-  overflow: hidden;
+  min-height: 100vh; /* min 100% of the viewport height */
   font-family: 'Roboto', Helvetica, sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: #D6F1C4;
+  background-color: #0094b6;
 }
 
 h1, h2, h3 { /* grouping selector */
@@ -37,8 +36,8 @@ a {
   margin: 0; /* remove default paragraph margins */
 }
 
-.left_box button {
-  background-color: #0094b6;
+.left_content button {
+  background-color: #bceaf6;
   color: white;
   padding: 4px 16px; /* top/bottom left/right */
   border-radius: 8px; /* curved edges */
@@ -72,28 +71,40 @@ a {
   padding-right: 32px;
 }
 
+.content_1 {
+  flex: 1;
+  padding: 16px;
+}
+
+.content_1 img { /* descendant combinator */
+  height: 150px;
+  width: auto;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #F5E258;
+  border-width: 2px;
+
+}
+
 .gallery {
   display: flex;
-  justify-content: space-between;
-
-}
-
-.content_1 {
-  padding: 32px;
-}
-
-.content_1 img {
-  width: auto;
-  height: 200px;
-  border-radius: 8px;
-
+  justify-content: center;
+  gap: 64px;
 }
 
 .content_2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e7967b;
+  background-color: #1b3c3d;
+}
+
+.content_3 {
+  display: flex;
+  min-height: 80px;
+  background-color: #bceaf6;
+  border-radius: 8px;
+  margin: 16px 240px; /* top/bottom left/right */
 }
 
 .footer {
