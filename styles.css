@@ -118,10 +118,13 @@ a {
 }
 
 .content_2 {
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1b3c3d;
+  justify-content: center;
+  gap: 32px;
+  background-color: #1de498;
 }
 
 .content_3 {
