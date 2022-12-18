@@ -127,6 +127,16 @@ a {
   background-color: #1de498;
 }
 
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+}
+
 .content_3 {
   display: flex;
   min-height: 80px;
