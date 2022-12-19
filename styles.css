@@ -157,7 +157,9 @@ a {
 
 .footer {
   display: flex;
-  min-height: 40px;
+  min-height: 50px;
   align-items: center;
   justify-content: center;
+  background-color: #F5E258;
+  font-size: 18px;
 }
