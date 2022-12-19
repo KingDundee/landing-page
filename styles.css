@@ -150,10 +150,11 @@ a {
 
 .content_3 {
   display: flex;
-  min-height: 150px;
+  align-items: baseline;
+  justify-content: space-between;
   background-color: #8619df;
   border-radius: 8px;
-  padding: 32px 64px;
+  padding: 32px 96px;
   margin: 32px 240px; /* top/bottom left/right */
 }
 
