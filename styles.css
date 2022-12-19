@@ -144,7 +144,8 @@ a {
 
 .author {
   font-weight: bold;
-  text-align: right;
+  font-size: 18px;
+  margin-left: 200px;
 }
 
 .content_3 {
