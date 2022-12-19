@@ -77,8 +77,8 @@ a {
 }
 
 #maldives {
-  min-width: 600px;
-  height: auto; /* preserve aspect ratio */
+  width: 275px;
+  height: 325px;
   object-fit: cover;
   border-style: solid;
   border-color: #0094b6;
