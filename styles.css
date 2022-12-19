@@ -169,6 +169,18 @@ a {
   color: white;
 }
 
+.content_3 button {
+  align-self: stretch;
+  background-color: #8619df;
+  border-color: white;
+  color: white;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8px; /* curved edges */
+  padding: 4px 8px; /* top/bottom left/right */
+  font-size: 24px;
+}
+
 .footer {
   display: flex;
   min-height: 50px;
