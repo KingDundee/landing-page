@@ -139,10 +139,10 @@ a {
 
 .content_3 {
   display: flex;
-  min-height: 80px;
-  background-color: #bceaf6;
+  min-height: 200px;
+  background-color: #8619df;
   border-radius: 8px;
-  margin: 16px 240px; /* top/bottom left/right */
+  margin: 32px 240px; /* top/bottom left/right */
 }
 
 .footer {
