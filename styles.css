@@ -42,15 +42,6 @@ a {
   font-weight: bold;
 }
 
-.hero_title {
-  font-size: 48px;
-  font-weight: bolder;
-}
-
-.hero_text {
-  font-size: 24px;
-}
-
 .subheader_2 {
   display: flex;
   justify-content: space-between;
@@ -62,6 +53,15 @@ a {
   flex-direction: column;
   justify-content: space-between;
   padding-right: 32px;
+}
+
+.hero_title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero_text {
+  font-size: 24px;
 }
 
 .left_content button {
