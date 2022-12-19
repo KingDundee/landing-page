@@ -158,6 +158,17 @@ a {
   margin: 32px 240px; /* top/bottom left/right */
 }
 
+.closer_title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.closer_text {
+  font-size: 18px;
+  color: white;
+}
+
 .footer {
   display: flex;
   min-height: 50px;
